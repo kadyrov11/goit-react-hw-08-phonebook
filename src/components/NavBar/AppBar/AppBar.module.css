@@ -1,0 +1,16 @@
+.appBar {
+  display: flex;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 17px;
+  font-weight: 550;
+  font-style: italic;
+  color: rgb(18, 82, 156);
+}
+.link:hover {
+  font-size: 19px;
+  transition-duration: 300ms;
+}

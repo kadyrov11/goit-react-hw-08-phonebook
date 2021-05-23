@@ -1,0 +1,8 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid grey;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px 3px grey;
+  height: 50px;
+}

@@ -1,0 +1,34 @@
+.label {
+  display: block;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 550;
+}
+.input {
+  width: 450px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+}
+.input:focus {
+  border: 1px solid rgba(0, 0, 0, 0.473);
+  box-shadow: 4px 4px 4px rgba(0, 174, 255, 0.829);
+}
+.btn {
+  display: block;
+  width: 200px;
+  height: 35px;
+  margin: 20px auto;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+.btn:hover {
+  border: 2px solid rgb(25, 124, 141);
+  box-shadow: 4px 4px 4px rgba(0, 174, 255, 0.829);
+}
+.btn:focus {
+  border: 2px solid rgb(25, 124, 141);
+}

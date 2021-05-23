@@ -1,0 +1,29 @@
+.container {
+  height: 630px;
+  width: 630px;
+  background-color: rgb(10, 49, 95);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 50%;
+  font-style: italic;
+  font-size: 20px;
+  color: aliceblue;
+}
+.container:hover {
+  box-shadow: 1px 1px 3px 5px rgba(53, 52, 52, 0.685);
+}
+.image {
+  height: 250px;
+  width: 250px;
+}
+.userName {
+  font-size: 40px;
+}
+.userEmail {
+  text-decoration: underline;
+  cursor: pointer;
+}

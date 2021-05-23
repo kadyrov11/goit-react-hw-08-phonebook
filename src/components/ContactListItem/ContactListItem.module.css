@@ -1,0 +1,26 @@
+.contact {
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+}
+.text {
+  width: 300px;
+}
+
+.deleteBtn {
+  width: 100px;
+  height: 25px;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.deleteBtn:hover {
+  border: 2px solid rgb(25, 124, 141);
+  box-shadow: 4px 4px 4px rgba(0, 174, 255, 0.829);
+}
+.deleteBtn:focus {
+  border: 2px solid rgb(25, 124, 141);
+}
